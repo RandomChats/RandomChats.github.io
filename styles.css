@@ -4,9 +4,8 @@ My css begins here
 
 */
 
-
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
   background-color: #1f1f1f;
   color: white;
@@ -44,7 +43,7 @@ p {
 }
 
 .dropHover {
-  font-size: 1.0em;
+  font-size: 1em;
 }
 
 .downSize {
@@ -112,7 +111,7 @@ p {
   display: block;
   color: #ffffff;
   background-color: #212121;
-  font-size: 1.0em;
+  font-size: 1em;
   padding: 5%;
 }
 
@@ -141,13 +140,12 @@ p {
     font-size: 1.3em;
   }
 
-  .sectionSubtext { 
+  .sectionSubtext {
     font-size: 0.8em;
   }
-  
+
   .youtubeDown {
     width: 448px;
     height: 252px;
   }
-  
 }

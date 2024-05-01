@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta
       charset="utf-8"
@@ -17,8 +17,10 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
+      defer
     ></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" as="image" href="images/selfImage.jpg" />
   </head>
 
   <body>
@@ -57,6 +59,7 @@
           <p class="bodyText">
             <img
               src="images/selfImage.jpg"
+              alt="An image of me! (Nova McLaughlin)"
               class="col-md-6 float-md-end mb-3 ms-md-3 downSize"
             />
             My name is Nova McLaughlin, and I'm a Software Developer and Unity
@@ -118,6 +121,19 @@
           also learned what it was like to work within a studio development
           setting, as well as working on a team.
         </p>
+        <br />
+        <p class="sectionSecondHead">Web Page Test updates</p>
+        <p class="bodyText">
+          Web Page Test had given me a few issues that I needed to solve, but
+          for the most part said my site was okay. The site recommended I add a
+          "defer" to my bootstrap loads to help allow the page to render faster.
+          The next change that was recommended was that I add "link
+          rel="preload" as="image" href="images/selfImage.jpg">" to my website
+          to help fetch the image on my homepage faster. Additionally, it also
+          told me to add lang="en" to each of my HTML elements, and to help the
+          accessability of my website by adding alt="" attributes to each of my
+          images, which was the LinkedIn Logo and my image on the homepage.
+        </p>
       </div>
     </div>
 
@@ -130,7 +146,13 @@
             href="https://www.linkedin.com/in/novela-mclaughlin-b48005306/"
             target="_blank"
           >
-            <img src="images/linkedin.png" class="img-fluid" width="32px" />
+            <img
+              src="images/linkedin.png"
+              loading="lazy"
+              alt="LinkedIn Logo"
+              class="img-fluid"
+              width="32px"
+            />
           </a>
         </div>
       </div>
